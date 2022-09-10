@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Termologia</title>
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="containerHeader">
+            <div class="topo Flex">
+                <div class="titulo">
+                    <img src="imagens/temperature.png" width="50px" class="imgLogo">
+                    <h1 id="titulo">Termologia</h1>
+                </div>
+                <button type="button" class="btnHamburguer" id="hamburguer" onclick="slideMenu()">
+                    =
+                </button>
+                <button type="button" class="btnFecharMenu" id="fecharMenu" onclick="slideFecharMenu()">
+                    &#x274C
+                </button>
+            </div>
+        </div>
+
+        <div class="menu" id="mostrarMenu">
+            <div class="containerConteudo">
+                <ul>
+                    <li><a href="">Leis da Termodinâmica</a></li>
+                    <li><a href="">Gás perfeito</a></li>
+                    <li><a href="">Princípio e máquina de Carnot</a></li>
+                    <li><a href="">Maquinas térmicas</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <button type="button" class="btnRecursos" onclick="slideSetaBaixo()" id="setaBaixo">
+            <div class="containerConteudo">
+                <p>índice do artigo <img src="imagens/seta-para-baixo.png" alt="Seta-para-baixo" width="17px"></p>
+            </div>
+        </button>
+
+        <button type="button" class="btnRecursos" onclick="slideSetaCima()" id="setaCima">
+            <div class="containerConteudo">
+                <p>índice do artigo <img src="imagens/seta-para-cima.png" alt="Seta-para-cima" width="17px">
+                </p>
+            </div>
+        </button>
+
+        <aside class="recursos" id="mostrarRecursos">
+            <div class="containerConteudo">
+                <ol>
+                    <li><a href="#introducao">Introdução</a></li>
+                    <li><a href="#desenvolvimento">Desenvolvimento</a></li>
+                    <li><a href="#conclusao">Conclusão</a></li>
+                </ol>
+            </div>
+        </aside>
+
+        </nav>
+    </header>
+
+    <main>
+        <div class="conteudo containerConteudo">
+
+            <h2 id="introducao">1.Introdução</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe cupiditate labore sequi voluptatibus
+                harum iure fugiat repudiandae maxime ipsam cumque. Delectus vitae molestias voluptates, iusto nostrum
+                officia? Illum, veniam voluptate!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe cupiditate labore sequi voluptatibus
+                harum iure fugiat repudiandae maxime ipsam cumque. Delectus vitae molestias voluptates, iusto nostrum
+                officia? Illum, veniam voluptate!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe cupiditate labore sequi voluptatibus
+                harum iure fugiat repudiandae maxime ipsam cumque. Delectus vitae molestias voluptates, iusto nostrum
+                officia? Illum, veniam voluptate!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe cupiditate labore sequi voluptatibus
+                harum iure fugiat repudiandae maxime ipsam cumque. Delectus vitae molestias voluptates, iusto nostrum
+                officia? Illum, veniam voluptate!</p>
+
+            <img src="imagens/capivara.jpg" alt="Capivara" width="300px" class="imagens">
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe cupiditate labore sequi voluptatibus
+                harum iure fugiat repudiandae maxime ipsam cumque. Delectus vitae molestias voluptates, iusto nostrum
+                officia? Illum, veniam voluptate!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe cupiditate labore sequi voluptatibus
+                harum iure fugiat repudiandae maxime ipsam cumque. Delectus vitae molestias voluptates, iusto nostrum
+                officia? Illum, veniam voluptate!</p>
+            <h2 id="desenvolvimento">2.Desenvolvimento</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic omnis dolorem error est, tempora debitis ab nostrum voluptatem officiis enim recusandae facilis at labore amet distinctio quis sapiente autem tenetur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic omnis dolorem error est, tempora debitis ab nostrum voluptatem officiis enim recusandae facilis at labore amet distinctio quis sapiente autem tenetur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic omnis dolorem error est, tempora debitis ab nostrum voluptatem officiis enim recusandae facilis at labore amet distinctio quis sapiente autem tenetur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic omnis dolorem error est, tempora debitis ab nostrum voluptatem officiis enim recusandae facilis at labore amet distinctio quis sapiente autem tenetur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic omnis dolorem error est, tempora debitis ab nostrum voluptatem officiis enim recusandae facilis at labore amet distinctio quis sapiente autem tenetur.</p>
+            <h2 id="conclusao">3.Conclusão</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate culpa itaque deleniti quidem assumenda alias nisi nostrum quia animi iste totam porro, eveniet enim minima sit quas quibusdam. Repellendus, omnis!</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate culpa itaque deleniti quidem assumenda alias nisi nostrum quia animi iste totam porro, eveniet enim minima sit quas quibusdam. Repellendus, omnis!</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate culpa itaque deleniti quidem assumenda alias nisi nostrum quia animi iste totam porro, eveniet enim minima sit quas quibusdam. Repellendus, omnis!</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate culpa itaque deleniti quidem assumenda alias nisi nostrum quia animi iste totam porro, eveniet enim minima sit quas quibusdam. Repellendus, omnis!</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate culpa itaque deleniti quidem assumenda alias nisi nostrum quia animi iste totam porro, eveniet enim minima sit quas quibusdam. Repellendus, omnis!</p>
+        </div>
+    </main>
+
+    <a href="#titulo">
+        <div class="acima">
+            <img src="imagens/acima.png" alt="icone-acima" width="25px">
+        </div>
+    </a>
+
+    <script src="script/script.js"></script>
+
+</body>
+
+</html>

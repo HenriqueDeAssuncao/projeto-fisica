@@ -1,0 +1,227 @@
+@charset "UTF-8";
+
+/* FONTES */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* VARIÁVEIS */
+
+:root {
+    --fontePrincipal: Roboto;
+    --fonteSecundaria: Arial;
+    --titulos: Montserrat;
+    --vermelho: #F2380F;
+    --branco: #EBF2F2;
+    --azul: #0D1E40;
+    --vinho: #730A44;
+}
+
+/* LAYOUT */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.containerConteudo {
+    margin: auto;
+}
+
+.Flex {
+    display: flex;
+}
+
+/* CELULAR (PADRÃO) */
+
+/* HEADER */
+
+.containerHeader {
+    margin: auto;
+}
+
+div.topo {
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+h1 {
+    font-family: var(--titulos);
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.imgLogo {
+    float: left;
+    margin-top: 10px;
+}
+
+button.btnHamburguer, .btnFecharMenu {
+    width: 30px;
+    font-size: 50px;
+    background-color: transparent;
+    border: none;
+}
+
+button.btnFecharMenu {
+    display: none;
+    font-size: 20px;
+}
+
+button.btnRecursos {
+    font-family: var(--fontePrincipal);
+    font-size: 17px;
+    background-color: black;
+    width: 100%;
+    text-align: left;
+    box-shadow: 0px 1px 5px 1px #00000071;
+    border: none;
+}
+
+button.btnRecursos p {
+    width: 70%;
+    padding: 5px;
+    color: var(--azul);
+    background-color: var(--branco);
+}
+
+#setaCima {
+    display: none;
+}
+
+/* ÍNDICE DA PÁGINA */
+
+aside.recursos {
+    background-color: black;
+    font-family: var(--fonteSecundaria);
+    padding: 5px;
+    display: none;
+}
+
+aside ol li {
+    color: white;
+    list-style: inside;
+    list-style-type: decimal;
+    margin-bottom: 5px;
+}
+
+aside ol li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* MENU */
+
+div.menu {
+    background-color: var(--vinho);
+    font-family: var(--fonteSecundaria);
+    padding: 7px;
+    display: none;
+}
+
+div.menu ul li {
+    color: white;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+div.menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* CONTEÚDO DO MAIN */
+
+main {
+    font-family: var(--fontePrincipal);
+    font-weight: 400;
+    color: gray;
+    background-color: rgba(255, 228, 196, 0.349);
+    padding: 18px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 35px;
+    color: black;
+    margin: 10px 0px 10px 0px;
+    font-family: var(--fonteSecundaria);
+    width: 100%;
+    text-indent: 10px;
+}
+
+.conteudo {
+    background-color: white;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 0px 1px 5px 1px #0000003d;
+}
+
+main p {
+    margin-top: 10px;
+}
+
+.imagens {
+    margin: 10px 10px 10px 0px;
+    border-radius: 100%;
+}
+
+div.acima {
+    border-radius: 100%;
+    padding: 10px;
+    width: fit-content;
+    box-shadow: 0px 1px 5px 1px #00000071;
+    position: fixed;
+    right: 5px;
+    bottom: 50px;
+
+}
+
+/* CELULAR LANDSCAPE */
+
+@media (min-width: 576px) {
+    .containerHeader {
+        max-width: 540px;
+    }
+    .containerConteudo {
+        max-width: 505px;
+    }
+}
+
+/*Tablet portrait*/
+@media (min-width: 768px) {
+    /* Layout */
+    .containerHeader {
+        max-width: 720px;
+    }
+    .containerConteudo {
+        max-width: 673px;
+    }
+}
+
+/*Tablet landscape*/
+@media (min-width: 992px) {
+    /* Layout */
+    .containerHeader {
+        max-width: 960px;
+    }
+    .containerConteudo {
+        max-width: 898px;
+    }
+}
+/* PC */
+@media (min-width: 1200px) {
+    .containerHeader {
+        max-width: 1140px;
+    }
+    .containerConteudo {
+        max-width: 1122px;
+    }
+}
+
+
+
+
+
+
