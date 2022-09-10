@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Termodinâmica - Leis da Termodinâmica</title>
     <link rel="stylesheet" href="estilo/style.css">
+    <link rel="shortcut icon" href="imagens/temperatura.png" type="image/x-icon">
 </head>
 
 <body>
@@ -15,7 +16,7 @@
             <div class="topo Flex">
                 <a href="index.html">
                     <div class="titulo">
-                        <img src="imagens/temperature.png" class="imgLogo">
+                        <img src="imagens/temperatura.png" class="imgLogo">
                         <h1 id="titulo">Termodinâmica</h1>
                     </div>
                 </a>
@@ -41,13 +42,14 @@
 
         <button type="button" class="btnRecursos" onclick="slideSetaBaixo()" id="setaBaixo">
             <div class="containerHeader">
-                <p>índice do artigo <img src="imagens/seta-para-baixo.png" alt="Seta-para-baixo"></p>
+                <p>índice do artigo <img src="imagens/seta-dupla-para-baixo.png" class="imgSeta" alt="Seta-para-baixo">
+                </p>
             </div>
         </button>
 
         <button type="button" class="btnRecursos" onclick="slideSetaCima()" id="setaCima">
             <div class="containerHeader">
-                <p>índice do artigo <img src="imagens/seta-para-cima.png" alt="Seta-para-cima">
+                <p>índice do artigo <img src="imagens/seta-dupla-para-cima.png" class="imgSeta" alt="Seta-para-cima">
                 </p>
             </div>
         </button>
@@ -82,7 +84,15 @@
                 harum iure fugiat repudiandae maxime ipsam cumque. Delectus vitae molestias voluptates, iusto nostrum
                 officia? Illum, veniam voluptate!</p>
 
-            <img src="imagens/capivara.jpg" alt="Capivara" width="250px" class="imagens">
+            <div class="imagens">
+                <picture>
+                    <source media="(min-width: 1200px)" srcset="imagens/capivara.jpg" width="509px">
+                    <source media="(min-width: 992px)" srcset="imagens/capivara.jpg" width="509px">
+                    <source media="(min-width: 768px)" srcset="imagens/capivara.jpg" width="480px">
+                    <source media="(min-width: 576px)" srcset="imagens/capivara.jpg" width="360px">
+                    <img src="imagens/capivara.jpg" alt="fisica-wallpaper" class="wwp-fisica" width="230px">
+                </picture>
+            </div>
 
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe cupiditate labore sequi voluptatibus
                 harum iure fugiat repudiandae maxime ipsam cumque. Delectus vitae molestias voluptates, iusto nostrum
@@ -127,12 +137,12 @@
 
     <a href="index.html">
         <div class="btnHome">
-            <img src="imagens/botao-home.png" alt="botao-home">
+            <img src="imagens/botao-home.png" class="imgIcones" alt="botao-home">
         </div>
     </a>
     <a href="#titulo">
         <div class="btnAcima">
-            <img src="imagens/acima.png" alt="icone-acima">
+            <img src="imagens/up-arrow.png" class="imgIcones" alt="icone-acima">
         </div>
     </a>
 

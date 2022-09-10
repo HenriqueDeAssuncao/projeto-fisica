@@ -60,6 +60,7 @@ h1:hover {
 .imgLogo {
     float: left;
     margin-top: 10px;
+    width: 50px;
 }
 
 .imgLogo:hover {
@@ -77,6 +78,10 @@ button.btnHamburguer, .btnFecharMenu {
 button.btnFecharMenu {
     display: none;
     font-size: 20px;
+}
+
+.imgSeta {
+    width: 13px;
 }
 
 button.btnRecursos {
@@ -189,6 +194,10 @@ div.btnAcima, .btnHome {
 
 .btnHome {
     bottom: 125px;
+}
+
+.imgIcones {
+    width: 25px;
 }
 
 /* CELULAR LANDSCAPE */
