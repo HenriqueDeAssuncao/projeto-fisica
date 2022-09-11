@@ -5,6 +5,7 @@ let fecharMenu = document.getElementById('fecharMenu');
 let setaBaixo = document.getElementById('setaBaixo');
 let setaCima = document.getElementById('setaCima');
 let recursos = document.getElementById('mostrarRecursos')
+let barra = document.getElementById('barraRecursos');
 
 
 function slideMenu() {
@@ -23,6 +24,7 @@ function slideSetaBaixo() {
     setaBaixo.style.display = 'none';
     setaCima.style.display = 'block';
     recursos.style.display = 'block';
+    barra.style.width = '100%';
 }
 
 function slideSetaCima() {

@@ -97,7 +97,7 @@ button.btnRecursos {
 
 button.btnRecursos p {
     width: 70%;
-    padding: 5px;
+    text-indent: 5px;
     color: var(--azul);
     background-color: var(--branco);
 }
@@ -137,14 +137,21 @@ div.menu {
 }
 
 div.menu ul li {
+    justify-content: space-between;
     color: white;
     list-style: none;
     margin-bottom: 10px;
+    cursor: pointer;
 }
+
 
 div.menu ul li a {
     color: white;
     text-decoration: none;
+}
+
+.icone-next {
+    width: 17px;
 }
 
 /* CONTEÚDO DO MAIN */
@@ -164,7 +171,6 @@ h2 {
     margin: 10px 0px 10px 0px;
     font-family: var(--fonteSecundaria);
     width: 100%;
-    text-indent: 10px;
 }
 
 .conteudo {
@@ -176,6 +182,7 @@ h2 {
 
 main p {
     margin-top: 10px;
+    text-indent: 5px;
 }
 
 .imagens {
@@ -239,6 +246,13 @@ div.btnAcima, .btnHome {
     }
     .containerConteudo {
         max-width: 800px;
+    }
+    div.btnAcima, .btnHome {
+        margin-right: 50px;
+    }
+    button.btnRecursos p {
+        width: fit-content;
+        padding: 0px 10px 0px 0px;
     }
 }
 
