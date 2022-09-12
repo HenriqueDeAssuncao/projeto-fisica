@@ -106,6 +106,37 @@ button.btnRecursos p {
     display: none;
 }
 
+/* MENU */
+
+div.menu {
+    background-color: var(--branco);
+    font-family: var(--fonteSecundaria);
+    padding: 7px;
+    display: none;
+}
+
+div.menu ul li {
+    justify-content: space-between;
+    list-style: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+
+div.menu ul li a {
+    color: var(--vinho);
+    text-decoration: none;
+}
+
+div.menu ul li a:hover {
+    text-decoration: underline;
+}
+
+.icone-next {
+    width: 17px;
+}
+
+
 /* ÍNDICE DA PÁGINA */
 
 aside.recursos {
@@ -127,31 +158,8 @@ aside ol li a {
     text-decoration: none;
 }
 
-/* MENU */
-
-div.menu {
-    background-color: var(--vinho);
-    font-family: var(--fonteSecundaria);
-    padding: 7px;
-    display: none;
-}
-
-div.menu ul li {
-    justify-content: space-between;
-    color: white;
-    list-style: none;
-    margin-bottom: 10px;
-    cursor: pointer;
-}
-
-
-div.menu ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-.icone-next {
-    width: 17px;
+aside ol li a:hover {
+    text-decoration: underline;
 }
 
 /* CONTEÚDO DO MAIN */
@@ -247,7 +255,7 @@ div.btnAcima, .btnHome {
     .containerConteudo {
         max-width: 800px;
     }
-    div.btnAcima, .btnHome {
+    .btnAcima, .btnHome {
         margin-right: 50px;
     }
     button.btnRecursos p {
@@ -255,9 +263,3 @@ div.btnAcima, .btnHome {
         padding: 0px 10px 0px 0px;
     }
 }
-
-
-
-
-
-
