@@ -49,3 +49,8 @@ div.border {
     width: 3px;
     background-color: rgb(255, 196, 0);
 }
+
+#img-index {
+    position: relative;
+    width: 80%;
+}
