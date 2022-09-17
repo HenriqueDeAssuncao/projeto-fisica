@@ -1,41 +1,51 @@
 @charset "UTF-8";
 
-main {
-    height: 100vh;
-}
-.inicio {
-    background-color: white;
-    padding: 10px;
+h2 {
+    font-family: var(--title);
+    margin-top: 10px
 }
 
-.artigo {
+.boxArticle {
+    display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid black;
-    padding: 10px;
-    color: var(--azul);
+    width: 90%;
+    height: 70px;
+    margin: 10px;
+    padding: 0px 10px 0px 0px;
+    background-color: white;
+    box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.137);
 }
 
-.artigo img {
-    border-left: 1px solid black;
+.boxArticle:hover {
+    box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.233);
 }
 
-.imgNext {
-    width: 30px;
+.boxContent {
+    display: flex;
+    width: 98%;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.inicio a {
+.boxContent > p {
+    font-family: var(--side);
+}
+
+main a {
     text-decoration: none;
+    color: black;
 }
 
-.artigo:hover {
-    background-color: var(--branco);
-    color: var(--vermelho);
+div.border {
+    position: relative;
+    left: 0px;
+    background-color: var(--amarelo);
+    height: 70px;
+    width: 2px;
+    transition: 0.2s;
 }
 
-.wwp-fisica {
-    margin-top: 10px;
-}
-
-.wwp-fisica:hover {
-    opacity: 0.5;
+.boxArticle:hover>.border {
+    width: 3px;
+    background-color: rgb(255, 196, 0);
 }
