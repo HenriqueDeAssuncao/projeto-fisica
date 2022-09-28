@@ -193,7 +193,6 @@ main ul {
 main ul li {
     font-family: var(--side);
     margin-top: 10px;
-    width: 50%;
     background-color: var(--amarelo);
     border-radius: 5px;
     padding: 5px;
