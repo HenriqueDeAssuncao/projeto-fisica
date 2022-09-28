@@ -1,0 +1,184 @@
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamis - Gás Perfeito</title>
+    <link rel="shortcut icon" href="imagens/logo-site.png" type="image/x-icon">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="estilo/main.css">
+</head>
+
+<body onresize="fresh()">
+    <header>
+        <div class="headerContent topContainer">
+            <a href="index.html">
+                <div class="headerTop">
+                    <img src="imagens/logo-site.png" alt="Logo-site" width="35px">
+                    <h1>Dynamis</h1>
+                </div>
+            </a>
+            <div class="buttons">
+                <button id="btnMenu" class="material-symbols-outlined" type="button">menu</button>
+                <button id="btnHideMenu" class="material-symbols-outlined" type="button">close</button>
+            </div>
+        </div>
+    </header>
+    <nav id="menu">
+        <div class="topContainer">
+            <p>Outros artigos:</p>
+            <ul>
+                <li><a href="artigo001.html">Leis da Termodinâmica</a></li>
+                <li class="visited"><a href="artigo002.html">Gás Perfeito</a></li>
+                <li><a href="artigo003.html">Princípio e máquina de Carnot</a></li>
+                <li><a href="artigo004.html">Máquinas térmicas</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="contentContainer">
+            <h2>Gás perfeito</h2>
+            <div class="articleIndex">
+                <ul>
+                    <p>Conteúdo deste artigo</p>
+                    <li><a href="#conceito">Conceito</a></li>
+                    <li><a href="#caracteristicas">Características do gás ideal</a></li>
+                    <li><a href="#1-lei">Lei de Boyle:</a></li>
+                    <li><a href="#2-lei">Lei de Gay Lussac</a></li>
+                    <li><a href="#3-lei">Lei de Charles</a></li>
+                </ul>
+            </div>
+            <h3 id="#conceito">Conceito de gás perfeito</h3>
+            <p>
+                Gás ideal ou gás perfeito é um modelo teórico em que um grande número de partículas diminutas movem-se com diferentes velocidades, podendo sofrer apenas colisões perfeitamente elásticas entre si. O conceito de gás ideal é útil para o estudo dos gases, uma vez que grande parte dos gases reais se comporta como gases ideais quando submetidos a regimes de baixas pressões e altas temperaturas.  
+            </p>
+            <h3 id="caracteristicas">Características do gás ideal</h3>
+            <p>
+                Todas as partículas que compõem um gás ideal são adimensionais, ou seja, têm tamanho desprezível. Além disso, não apresentam nenhum tipo de atração ou repulsão entre si, pois a única interação entre elas são choques perfeitamente elásticos (colisões em que não há perdas de energia cinética). 
+            </p>
+            <p>
+                Como consequência, diferentemente dos gases reais, não é possível que um gás ideal se condense, como ocorre com o vapor de água, que pode se liquefazer ao entrar em contato com uma superfície de temperatura mais baixa que a sua. 
+            </p>
+            <img class="imagens" src="imagens/volume-molar-de-gases.webp" alt="Volume molar de gases">
+            <P>
+                De acordo com a teoria cinética dos gases, a velocidade em que as partículas de um gás ideal deslocam-se é diretamente proporcional ao módulo de sua temperatura absoluta, medida em kelvin, ou seja, quanto maior a temperatura de um gás ideal, maior será a energia cinética média de suas partículas. 
+            </P>
+            <div class="boxImages"><img src="imagens/formula1.webp" class="imagens2" alt="Fórmula"></div>
+            <p><strong>KB – constante de Boltzmann (1,38.10-23 J/K) </strong></p>
+            <p><strong>T – Temperatura absoluta (K)</strong></p>
+            <p>
+                Dado um certo volume de um gás perfeito, todo e qualquer gás que seja ideal será constituído exatamente pelo mesmo número de partículas. A massa total desse gás, entretanto, depende da massa molar (g/mol) da substância que o compõe. Dito isso, sabemos que 1 mol de partículas de um gás ideal qualquer (ou seja, cerca de 6,02.1023 partículas) sempre ocupa o mesmo volume, que é de aproximadamente 22,4 l quando submetido à pressão de 1 atm. 
+            </p>
+            <h3 id="1-lei">1 - Lei de Boyle:</h3>
+            <p>
+                A lei de Boyle basicamente descreve o comportamento de um gás ideal apenas quando sua temperatura é mantida constante (muitas vezes quando a temperatura se mantém constante a transformação é chamada de isotérmica). 
+            </p>
+            <p>
+                Para entender o processo dessa lei imagine um gás contido em um recipiente fechado.  
+            </p>
+            <div class="boxImages"><img src="imagens/boyle1.jpg" class="imagens2" alt="Lei de Boyle"></div>
+            <p>Agora imagine que você pressione a tampa desse recipiente. </p>
+            <div class="boxImages"><img src="imagens/boye2.jpg" class="imagens2" alt="Lei de Boyle"></div>
+            <p>
+                Você então perceberá que quanto mais você aumenta a pressão no gás, o seu volume também diminuirá. Logo perceberá que as grandezas volume e pressão são diretamente proporcionais. 
+            </p>
+            <p>
+                Então a lei de Boyle diz matematicamente que: 
+            </p>
+            <p>
+                <strong>pV = k </strong>
+            </p>
+            <p>
+                Onde k é uma constante que depende da massa, temperatura e da natureza desse gás. 
+            </p>
+            <p>
+                O gráfico da transformação isotérmica obtida é então: 
+            </p>
+            <div class="boxImages"><img src="imagens/boyle3.jpg" class="imagens2" alt="Lei de Boyle" style="margin: 10px;"></div>
+            <h3 id="2-lei">2 - Lei de Gay Lussac:</h3>
+            <p>
+                A lei de Gay Lussac basicamente descreve o comportamento de um gás ideal apenas quando sua pressão é mantida constante (muitas vezes quando a pressão se mantém constante a transformação é chamada de isobárica). 
+            </p>
+            <p>
+                Para entender o processo dessa lei imagine novamente um gás contido em um recipiente fechado. 
+            </p>
+            <p>
+                Agora imagine que você esquente o recipiente. 
+            </p>
+            <div class="boxImages"><img src="imagens/gay1.jpg" class="imagens2" alt="Lei de Gay Lussac"></div>
+            <p>
+                Você então perceberá que quanto mais você o esquenta, a tampa do recipiente irá subir logo a pressão no gás irá diminuir então seu volume irá aumentar.
+            </p>
+            <p>
+                Logo se percebe que as grandezas volume e temperatura são diretamente proporcionais.
+            </p>
+            <div class="boxImages"><img src="imagens/gay2.jpg" class="imagens2" alt="Lei de Gay Lussac"></div>
+            <p>
+                Então a lei de Gay Lussac diz matematicamente que: 
+            </p>
+            <p>
+                <strong>v = k . T </strong>
+            </p>
+            <p>
+                O gráfico da transformação isobárica obtida é então: 
+            </p>
+            <div class="boxImages"><img src="imagens/gay3.jpg" class="imagens2" alt="Lei de Gay Lussac"></div>
+            <h3 id="3-lei">3 - Lei de Charles:</h3>
+            <p>
+                A lei de Charles basicamente descreve o comportamento de um gás ideal apenas quando seu volume é mantido constante (muitas vezes quando o volume se mantém constante a transformação é chamada de isocórica ou isovolumétrica). 
+            </p>
+            <p>
+                Para entender o processo dessa lei imagine novamente um gás contido em um recipiente fechado. 
+            </p>
+            <p>
+                Observe que agora você deve manter a tampa do recipiente travada, pois o volume do gás deve sempre permanecer constante. 
+            </p>
+            <div class="boxImages"><img src="imagens/charles1.jpg" class="imagens2" alt="Lei de Charles"></div>
+            <p>
+                Agora imagine que você esquente o recipiente. Você então perceberá que o gás tenderá a aumentar seu volume e como resultado perceberá que a pressão do gás nas paredes do recipiente irá aumentar consequentemente você percebe que a temperatura do sistema irá também aumentar. Como conclusão as grandezas temperatura e pressão são diretamente proporcionais. 
+            </p>
+            <div class="boxImages"><img src="imagens/charles2.jpg" class="imagens2" alt="Lei de Charles"></div>
+            <p>
+                Então a lei de Charles diz matematicamente que: 
+            </p>
+            <p>
+                <strong>p = k . T</strong>
+            </p>
+            <p>
+                O gráfico da transformação isovolumétrica obtida é então: 
+            </p>
+            <div class="boxImages"><img src="imagens/charles3.jpg" class="imagens2" alt="Lei de Charles"></div>
+            <p>
+                Conhecida essas três leis o cientista chamado Clapeyron conseguiu sintetizar todas elas em apenas uma equação. A denominada equação de Clapeyron que diz:  
+            </p>
+            <p>
+                <strong>pV = nRT</strong>
+            </p>
+            <p><strong>Onde: n = número de moléculas presente no gás</strong></p>
+            <p><strong>R = constante universal dos gases perfeitos</strong></p>
+            <p><strong>V = volume do gás</strong></p>
+            <p><strong>P = pressão do gás</strong></p>
+            <p><strong>Observação:</strong></p>
+            <img src="imagens/clapeyron.png"  class="imagens" alt="Lei de Clapeyron" style="border: 1px solid black;">
+            <p>
+                Com as três leis e a equação de Clapeyron, pode-se chegar na equação geral dos gases perfeitos: 
+            </p>
+            <img src="imagens/lei-dos-gases.png"class="imagens"  alt="Equação geral dos gases" style="border: 1px solid black;">
+            <p>
+                Essa equação quer dizer que as relações dos estados 1,2,3 serão sempre iguais. 
+            </p>
+
+        </div>
+
+        <a href="#menu">
+            <div class="btnAbove material-symbols-outlined">
+                arrow_upward
+            </div>
+        </a>
+    </main>
+    <script src="script/main.js"></script>
+</body>
+
+</html>

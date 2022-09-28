@@ -1,0 +1,126 @@
+<html lang="pt-BR">>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamis - Máquinas térmicas</title>
+    <link rel="shortcut icon" href="imagens/logo-site.png" type="image/x-icon">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="estilo/main.css">
+</head>
+
+<body onresize="fresh()">
+    <header>
+        <div class="headerContent topContainer">
+            <a href="index.html">
+                <div class="headerTop">
+                    <img src="imagens/logo-site.png" alt="Logo-site" width="35px">
+                    <h1>Dynamis</h1>
+                </div>
+            </a>
+            <div class="buttons">
+                <button id="btnMenu" class="material-symbols-outlined" type="button">menu</button>
+                <button id="btnHideMenu" class="material-symbols-outlined" type="button">close</button>
+            </div>
+        </div>
+    </header>
+    <nav id="menu">
+        <div class="topContainer">
+            <p>Outros artigos:</p>
+            <ul>
+                <li><a href="artigo001.html">Leis da Termodinâmica</a></li>
+                <li><a href="artigo002.html">Gás Perfeito</a></li>
+                <li><a href="artigo003.html">Princípio e máquina de Carnot</a></li>
+                <li class="visited"><a href="artigo004.html">Máquinas térmicas</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="contentContainer">
+            <h2>Máquinas térmicas</h2>
+            <p>
+                Para que um determinado sistema realize trabalho à custa da energia extraída na forma de calor de uma
+                determinada fonte de calor por meio de um processo cíclico, são necessárias duas fontes de calor com
+                temperaturas diferentes. Um dispositivo que realiza tais atividades por meio de tal processo é chamado
+                de máquina térmica. Uma máquina térmica recebe uma certa quantidade de energia na forma de calor (Q2) de
+                uma fonte de calor e transfere uma parte (Q1) dessa energia para uma fonte fria.
+            </p>
+            <p>
+                Para que um determinado sistema realize trabalho à custa da energia extraída na forma de calor de uma
+                determinada fonte de calor por meio de um processo cíclico, são necessárias duas fontes de calor com
+                temperaturas diferentes. Um dispositivo que realiza tais atividades por meio de tal processo é chamado
+                de máquina térmica. Uma máquina térmica recebe uma certa quantidade de energia na forma de calor (Q2) de
+                uma fonte de calor e transfere uma parte (Q1) dessa energia para uma fonte fria.
+            </p>
+            <p>
+                Então, o trabalho realizado em cada ciclo é:
+            </p>
+            <p>
+                <strong>W = Q2 - Q1.</strong>
+            </p>
+            <p>
+                A eficiência mede a eficiência com que uma máquina térmica converte um fluxo de energia na forma de
+                calor em um fluxo de energia na forma de trabalho. A eficiência é definida como a razão entre o trabalho
+                realizado no ciclo e a energia obtida na forma de calor da fonte de calor:
+            </p>
+            <p>
+                <strong>r = W/Q2</strong>
+            </p>
+            <p>
+                ou
+            </p>
+            <p>
+                <strong>r = 1 - Q1/Q2</strong>
+            </p>
+            <p>
+                De acordo com a afirmação de Kelvin da segunda lei da termodinâmica, Q1 é sempre diferente de zero,
+                então r < 1. Portanto, é impossível construir uma máquina térmica que converta completamente a energia
+                na fonte de calor na forma de calor em trabalho durante o ciclo. 
+            </p>
+            <p>
+                Um refrigerador é um dispositivo que recebe energia na forma de calor de uma fonte fria e a
+                transfere para uma fonte de calor. Nesta transferência, o trabalho deve ser fornecido para
+                completar o ciclo. onde Q1 é a energia removida como calor da fonte fria, W é o trabalho
+                realizado no sistema e a energia transferida como calor para a fonte de calor é
+            </p>
+            <p>
+                <strong>Q2 = W + Q1</strong>
+            </p>
+            <p>
+                Para refrigeradores, a eficiência E é definida pela seguinte relação:
+            </p>
+            <p>
+                <strong>E = Q1/W</strong>
+            </p>
+            <p>
+                ou
+            </p>
+            <p>
+                <strong>E = Q1/(Q2 - Q1)</strong>
+            </p>
+            <p>
+                De acordo com o enunciado de Clausius da segunda lei da termodinâmica, W é sempre diferente de
+                zero. Portanto, é impossível para um refrigerador operando em ciclo transferir energia na forma
+                de calor da fonte fria para a fonte de calor sem receber trabalho.
+            </p>
+            <p>
+                O problema agora é descobrir qual é o máximo trabalho que pode ser obtida por uma máquina
+                térmica operando entre duas fontes dadas.
+            </p>
+            <p>
+                A resposta para esse problema está no <a href="artigo003.html">teorema de Carnot</a>.
+            </p>
+
+        </div>
+        <a href="#menu">
+            <div class="btnAbove material-symbols-outlined">
+                arrow_upward
+            </div>
+        </a>
+    </main>
+    <script src="script/main.js"></script>
+</body>
+
+</html>

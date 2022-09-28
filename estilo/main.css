@@ -130,9 +130,11 @@ nav ul li:hover > a{
 main {
     font-family: var(--main);
     font-size: 18px;
+    padding: 10px;
 }
 
 h2 {
+    font-size: 28px;
     text-indent: 5px;
     font-family: var(--titles);
     font-weight: 500;
@@ -166,6 +168,7 @@ main p {
 }
 
 h3 {
+    font-size: 24px;
     font-family: var(--titles);
     font-weight: 500;
 }
@@ -188,13 +191,29 @@ main ul li {
     width: 50%;
     background-color: var(--amarelo);
     border-radius: 5px;
+    padding: 5px;
+}
+
+.imagens {
+    width: 330px;
+    margin: 10px 0px 10px 20px;
+}
+
+div.boxImages {
+    display: flex;
+    margin: auto;
+    width: fit-content;
+}
+
+.imagens2 {
+    margin: auto;
 }
 
 .btnAbove {
     position: fixed;
     right: 10px;
     bottom: 10px;
-    box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.233);
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.233);
     border-radius: 50%;
     font-size: 40px;
     color: black;
@@ -273,5 +292,8 @@ main ul li {
 
     .contentContainer {
         max-width: 800px;
+    }
+    .imagens {
+        width: min-content;
     }
 }

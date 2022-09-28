@@ -1,0 +1,97 @@
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamis - Princípio e máquina de Carnot</title>
+    <link rel="shortcut icon" href="imagens/logo-site.png" type="image/x-icon">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="estilo/main.css">
+</head>
+
+<body onresize="fresh()">
+    <header>
+        <div class="headerContent topContainer">
+            <a href="index.html">
+                <div class="headerTop">
+                    <img src="imagens/logo-site.png" alt="Logo-site" width="35px">
+                    <h1>Dynamis</h1>
+                </div>
+            </a>
+            <div class="buttons">
+                <button id="btnMenu" class="material-symbols-outlined" type="button">menu</button>
+                <button id="btnHideMenu" class="material-symbols-outlined" type="button">close</button>
+            </div>
+        </div>
+    </header>
+    <nav id="menu">
+        <div class="topContainer">
+            <p>Outros artigos:</p>
+            <ul>
+                <li><a href="artigo001.html">Leis da Termodinâmica</a></li>
+                <li><a href="artigo002.html">Gás Perfeito</a></li>
+                <li class="visited"><a href="artigo003.html">Princípio e máquina de Carnot</a></li>
+                <li><a href="artigo004.html">Máquinas térmicas</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="contentContainer">
+            <h2>Máquina de Carnot</h2>
+    
+            <h3>Teorema de Carnot</h3>
+            <p>
+                Carnot mostrou que a maior eficiência possível de uma máquina térmica entre duas temperaturas T1 (fonte de calor) e T2 (fonte de frio) seria a de uma máquina realizando um ciclo teórico composto por duas transições isotérmicas e duas transições adiabáticas alternadas, onde o gás sofre uma transformação isotérmica se expandindo e absorvendo de uma fonte quente Q1 a temperatura T1, em seguida, sofre uma transformação adiabática, logo, sua temperatura cai para um valor T2, partindo para uma compressão isotérmica, liberando uma quantidade de calor Q2 para a fonte fria à temperatura T2, por fim, sofre uma compressão adiabática e retorna a sua condição inicial
+            </p>
+            <img class="imagens" src="imagens/ciclo-de-carnot.webp" alt="Ciclo de Carnot">
+            <p>
+                No ciclo de Carnot, o calor trocado com as fontes de frio e calor (Q1 e Q2) é proporcional às respectivas temperaturas absolutas (T1 e T2).
+            </p>
+            <p>
+                <strong>(Q2 / T2) = (Q1 / T1) ou (Q2 / Q1) = (T2 / T1)</strong>
+            </p>
+            <p>
+                Substituindo na equação de eficiência da máquina térmica, obtemos uma expressão que dá a máxima eficiência entre as duas temperaturas da fonte de calor e da fonte de frio:
+            </p>
+            <p>
+                <strong>rmax=1- (T2 / T1)</strong>
+            </p>
+            <p>
+                <strong>Para um ciclo de Carnot, Q1/Q2 = T1/T2.</strong>
+            </p>
+            <p>
+                A eficiência da máquina de Carnot pode então ser expressa em função da temperatura absoluta das duas fontes:
+            </p>
+            <p>
+                <strong>r = 1 - T1/T2</strong>
+            </p>
+            <p>
+                Independentemente da substância operacional na máquina, logo, é uma função proprietária da temperatura absoluta das fontes de frio e calor.
+            </p>
+            <p>
+                Portanto, fica claro que todas as máquinas de Carnot operando entre as mesmas temperaturas T1 e T2 possuem a mesma eficiência.
+            </p>
+            <p>
+                A eficiência de uma máquina real é sempre menor que a de uma máquina de Carnot operando entre as mesmas duas temperaturas.
+            </p>
+            <p>
+                A eficiência de uma máquina real é sempre menor que a de uma máquina de Carnot operando entre as mesmas duas temperaturas.
+            </p>
+            <p>
+                <strong>E = T1/(T1 - T2)</strong>
+            </p>
+
+
+        </div>
+        <a href="#menu">
+            <div class="btnAbove material-symbols-outlined">
+                arrow_upward
+            </div>
+        </a>
+    </main>
+    <script src="script/main.js"></script>
+</body>
+
+</html>
