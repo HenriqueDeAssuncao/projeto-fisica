@@ -149,9 +149,10 @@ h2 {
 
 .articleIndex > ul {
     list-style: inside;
-    list-style-type: '✔️';
+    list-style-type: '➡';
     padding: 5px 0px 5px 5px; 
     margin-left: 5px;
+    color: var(--azul);
 }
 
 .articleIndex > ul li {
@@ -160,7 +161,7 @@ h2 {
 }
 
 .articleIndex > ul > li > a {
-    color: black;
+    color: var(--azul);
 }
 
 main p, h3 {
@@ -178,7 +179,7 @@ h3 {
 }
 
 h3::before {
-    content: '✔️';
+    content: '➡';
 }
 
 main ul {
