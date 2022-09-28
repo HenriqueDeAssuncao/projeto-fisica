@@ -195,7 +195,7 @@ main ul li {
 }
 
 .imagens {
-    width: 330px;
+    width: 300px;
     margin: 10px 0px 10px 20px;
 }
 
@@ -243,6 +243,11 @@ div.boxImages {
 
     .contentContainer {
         max-width: 673px;
+    }
+
+    .float {
+        float: right;
+        margin: 10px;
     }
 
 }
